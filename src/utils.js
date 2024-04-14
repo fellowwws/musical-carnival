@@ -1,0 +1,1 @@
+const alphanumerically = (a, b) => parseInt(a.replaceAll(/[A-Z]+/ig, '')) - parseInt(b.replaceAll(/[A-Z]+/ig, '')) || a.localeCompare(b);
