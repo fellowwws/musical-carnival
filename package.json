@@ -1,9 +1,11 @@
 {
-  "homepage": "https://github.com/fellowwws/fluffy-succotash.git",
-  "name": "fluffy-succotash",
+  "homepage": "https://github.com/fellowwws/musical-carnival",
+  "name": "musical-carnival",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
